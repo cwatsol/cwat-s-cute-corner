@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# Welcome to $CWAT SOLANA COMMUNITY
 
-TODO: Document your project here
+https://pump.fun/coin/HySY1ArycFvc3AZUy4VW6xcB9aciN4AnHcVE3Ve7pump
