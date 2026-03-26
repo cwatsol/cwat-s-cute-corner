@@ -21,9 +21,9 @@ const Tokenomics = () => {
   };
 
   return (
-    <section id="tokenomics" className="py-20 px-4">
+    <section id="tokenomics" className="py-20 px-5">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-display text-5xl md:text-6xl text-center text-foreground mb-4">
+        <h2 className="font-display text-3xl md:text-6xl text-center text-foreground mb-4">
           TOKENOMICS 📊
         </h2>
         <p className="font-body text-center text-muted-foreground mb-12 text-lg">
