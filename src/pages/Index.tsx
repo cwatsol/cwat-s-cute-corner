@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import Tokenomics from "@/components/Tokenomics";
 import PfpGenerator from "@/components/PfpGenerator";
@@ -8,6 +9,7 @@ import FloatingSocials from "@/components/FloatingSocials";
 const Index = () => {
   return (
     <div className="grain-bg min-h-screen">
+      <Navbar />
       <HeroSection />
       <Tokenomics />
       <PfpGenerator />
