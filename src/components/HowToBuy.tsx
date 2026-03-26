@@ -21,12 +21,12 @@ const steps = [
 
 const HowToBuy = () => {
   return (
-    <section id="buy" className="py-24 px-4">
+    <section id="buy" className="py-24 px-5">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-16">
+        <h2 className="font-display text-3xl md:text-6xl text-foreground mb-12 md:mb-16">
           How to Buy
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {steps.map((step) => (
             <div
               key={step.num}

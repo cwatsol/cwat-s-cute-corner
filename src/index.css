@@ -45,9 +45,10 @@
   * {
     @apply border-border;
   }
-  body {
+  html, body {
     @apply bg-background text-foreground;
     font-family: var(--font-body);
+    overflow-x: hidden;
   }
 }
 

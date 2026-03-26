@@ -83,7 +83,7 @@ const Tokenomics = () => {
           </p>
           <button
             onClick={handleCopy}
-            className="font-body text-sm md:text-base text-foreground break-all
+            className="font-body text-xs md:text-base text-foreground break-all
                        hover:text-primary transition-colors cursor-pointer"
           >
             {CONTRACT_ADDRESS}

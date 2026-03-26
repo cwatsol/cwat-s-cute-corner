@@ -16,10 +16,10 @@ const HeroSection = () => {
           height={300}
           className="animate-wiggle drop-shadow-2xl w-48 md:w-72 h-auto"
         />
-        <h1 className="font-display text-7xl md:text-9xl tracking-tight text-foreground">
+        <h1 className="font-display text-5xl md:text-9xl tracking-tight text-foreground text-center">
           $CWAT
         </h1>
-        <p className="font-body text-lg md:text-2xl text-muted-foreground max-w-md text-center">
+        <p className="font-body text-base md:text-2xl text-muted-foreground max-w-md text-center px-2">
           The wettest cat on the Solana chain. 💦🐱
         </p>
         <a
