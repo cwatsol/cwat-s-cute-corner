@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-background/70 border-b border-border/50">
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-2.5">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-2.5">
         <a href="#" className="font-display text-2xl text-foreground hover:text-primary transition-colors">
           $CWAT
         </a>

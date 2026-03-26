@@ -135,21 +135,21 @@ const PfpGenerator = () => {
   };
 
   return (
-    <section id="pfp" className="py-24 px-4">
+    <section id="pfp" className="py-24 px-5">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="font-display text-4xl md:text-6xl text-foreground mb-2">
+        <h2 className="font-display text-3xl md:text-6xl text-foreground mb-2">
           THE <span className="text-primary">LABORATORY</span>
         </h2>
-        <p className="font-body text-muted-foreground mb-10 text-lg">
+        <p className="font-body text-muted-foreground mb-10 text-base md:text-lg">
           Build your anomaly. Drag, scale, and rotate layers natively.
         </p>
 
-        <div className="flex flex-col lg:flex-row gap-6 items-start justify-center">
+        <div className="flex flex-col lg:flex-row gap-6 items-center lg:items-start justify-center">
           {/* Canvas */}
-          <div className="bg-card/50 backdrop-blur rounded-2xl border-2 border-border p-4 shadow-xl">
+          <div className="bg-card/50 backdrop-blur rounded-2xl border-2 border-border p-4 shadow-xl w-full max-w-[500px] overflow-hidden">
             <canvas
               ref={canvasRef}
-              className="rounded-xl"
+              className="rounded-xl w-full h-auto"
               style={{ maxWidth: "100%", touchAction: "none" }}
             />
           </div>

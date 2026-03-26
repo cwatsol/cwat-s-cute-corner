@@ -2,18 +2,18 @@ import mascot from "@/assets/cwat-mascot.png";
 
 const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4">
-      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <section id="about" className="py-24 px-5">
+      <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
         <img
           src={mascot}
           alt="CWAT"
           width={250}
           height={250}
           loading="lazy"
-          className="animate-float drop-shadow-xl"
+          className="animate-float drop-shadow-xl w-40 md:w-64 h-auto flex-shrink-0"
         />
-        <div>
-          <h2 className="font-display text-4xl md:text-5xl text-foreground mb-6">
+        <div className="text-center md:text-left">
+          <h2 className="font-display text-3xl md:text-5xl text-foreground mb-6">
             Why CWAT?
           </h2>
           <div className="space-y-4 font-body text-lg text-muted-foreground leading-relaxed">
