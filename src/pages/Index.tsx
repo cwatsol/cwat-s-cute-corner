@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import Tokenomics from "@/components/Tokenomics";
 import PfpGenerator from "@/components/PfpGenerator";
 import AboutSection from "@/components/AboutSection";
 import HowToBuy from "@/components/HowToBuy";
@@ -8,6 +9,7 @@ const Index = () => {
   return (
     <div className="grain-bg min-h-screen">
       <HeroSection />
+      <Tokenomics />
       <PfpGenerator />
       <AboutSection />
       <HowToBuy />
